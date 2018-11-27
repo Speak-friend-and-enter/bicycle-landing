@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 34" width="35" height="34">
+	<defs>
+		<image width="71" height="71" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MiA3MSIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcxIj4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiAjNDA4MGM1IH0gCgkJLnNocDEgeyBmaWxsOiAjZmZmZmZmIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0zNi40Myw3MWMxOS41NywwIDM1LjQzLC0xNS44NiAzNS40MywtMzUuNDNjMCwtMTkuNTcgLTE1Ljg2LC0zNS40MyAtMzUuNDMsLTM1LjQzYy0xOS41NywwIC0zNS40MywxNS44NyAtMzUuNDMsMzUuNDNjMCwxOS41NyAxNS44NiwzNS40MyAzNS40MywzNS40M3oiIC8+CgkJPHBhdGggaWQ9IlBhdGggMiIgY2xhc3M9InNocDEiIGQ9Ik0yNy44OSwzNC44N2gzLjY2djE4LjQyaDYuODd2LTE4LjQyaDUuNDRsMC40MSwtNS4zaC01Ljg0di00LjE0YzAsLTEuNDMgMS4yOCwtMS45NCAyLjcsLTEuOTRjMS40MiwwIDIuOTUsMC40NCAyLjk1LDAuNDRsMC45MiwtNS40M2MwLDAgLTEuOTUsLTAuNjYgLTYuNTcsLTAuNjZjLTIuODQsMCAtNC40OSwxLjA4IC01LjY5LDIuNjdjLTEuMTQsMS41IC0xLjE4LDMuOTIgLTEuMTgsNS40OXYzLjU2aC0zLjY2eiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Vector Smart Object" href="#img1" transform="matrix(1.029,0,0,1,0,0)"/>
+</svg>

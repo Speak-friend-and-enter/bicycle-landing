@@ -1,0 +1,104 @@
+div.work
+  hr
+    width: 50px
+    height: 1px
+    margin-bottom: 2rem
+    background-color: rgba(53,55,56,0.2)
+  img:not(.icon)
+    width: 100%
+    height: 100%
+  .item-wrap-1
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(3, 1fr)
+    .item-1
+      grid-column: span 2
+      grid-row: span 3
+    .item-2
+      grid-column: span 1
+      grid-row: span 2
+      background-color: $white
+      display: grid
+      align-content: center
+      justify-items: center
+      z-index: 1
+      p
+        +font(16px, normal, #848789)
+        line-height: 30px
+        text-align: left
+      .content
+        padding: 0 5rem
+    .item-3
+      position: relative
+      grid-column: span 1
+      grid-row: span 1
+      height: 100%
+  .item-wrap-2
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(3, 1fr)
+    .item-1
+      background-color: $white
+      z-index: 1
+      grid-column: 1
+      grid-row: span 2
+      display: grid
+      align-content: center
+      justify-items: center
+      p
+        +font(16px, normal, #848789)
+        line-height: 30px
+        text-align: left
+      .content
+        padding: 0 5rem
+    .item-2
+      position: relative
+      height: 100%
+      grid-row-start: 3
+
+    .item-3
+      grid-column-start:  2
+      grid-column: 2
+      grid-row: span 3
+      grid-column-end: 4
+  .item-wrap-3
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(3, 1fr)
+    .item-1
+      grid-column: 1
+      grid-row: span 3
+    .item-2
+      background-color: $white
+      z-index: 1
+      grid-column: 2
+      grid-row: span 2
+      display: grid
+      align-content: center
+      justify-items: center
+      p
+        +font(16px, normal, #848789)
+        line-height: 30px
+        text-align: left
+      .content
+        padding: 0 5rem
+    .item-3
+      position: relative
+      height: 100%
+      grid-row-start: 3
+      grid-column: 2
+
+    .item-4
+      grid-column-start:  3
+      grid-column: 3
+      grid-row: span 3
+
+.arrow
+  left: 0
+  right: 0
+  margin: -1rem auto
+  transform: rotate(45deg)
+  z-index: 0
+  width: 2rem
+  height: 2rem
+  background-color: $white

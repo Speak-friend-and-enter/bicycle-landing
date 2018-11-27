@@ -1,0 +1,98 @@
+.shop
+  .item-wrap
+    display: grid
+    max-width: 100%
+    grid-template-columns: repeat(6, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    img
+      width: 100%
+      height: 100%
+    .shop-icon
+      +font(14px, 3px, $white)
+      display: grid
+      justify-content: center
+      align-items: center
+      width: 120px
+      height: 70px
+      img
+        margin-left: 25%
+        width: 51px
+        height: 30px
+    .shop-item
+      position: relative
+      height: 100%
+  #shop-image-3
+    grid-row-start: 2
+    grid-column-start: 1
+    grid-column: span 2
+  #shop-image-4
+    grid-column: 1
+    grid-column-start: 3
+    grid-row: span 2
+  #shop-image-5
+    grid-column: 1
+    grid-column-start: 4
+    grid-row: span 2
+  #shop-image-6
+    grid-column-start: 4
+    grid-column: span 2
+  #shop-image-8
+    grid-column: 6
+
+  .shop-image
+    display: block
+    width: 100%
+    height: auto
+
+  .overlay
+    position: absolute
+    background-color: rgba(100,194,158,0.8)
+    overflow: hidden
+    transition: .5s ease
+  .overlay-down
+    width: 100%
+    height: 0
+    bottom: 100%
+    left: 0
+    right: 0
+  .overlay-left
+    width: 0
+    height: 100%
+    bottom: 0
+    left: 0
+    right: 0
+
+  .shop-item:hover .overlay-down
+    bottom: 0
+    height: 100%
+  .shop-item:hover .overlay-left
+    width: 100%
+
+  .shop-icon
+    color: white
+    font-size: 20px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    text-align: center
+
+
+  .discover
+    background-color: #282f35
+    height: 200px
+    display: grid
+    justify-content: center
+    align-items: center
+    button
+      width: 300px
+      height: 50px
+      border: 1px solid rgba(255,255,255,0.5)
+      background-color: transparent
+      +font(14px, 3px, white)
+      font-weight: bold
+      color: white
+      &:hover
+        background-color: #848789
+      &:focus
+        outline: 0

@@ -1,0 +1,22 @@
+.top
+  background: url("../img/top.jpg") no-repeat center top
+  background-size: cover
+  min-height: 800px
+  .menu
+    position: sticky
+    top: 0
+
+.top-menu
+  display: flex
+  align-items: center
+  justify-content: center
+  .menu-items
+    height: 100%
+    width: 30%
+    +font(13px, 3px, $menu-text-color)
+    font-weight: bold
+    a
+      text-decoration: none
+      margin: 0 20px
+      &:visited
+        color: $menu-text-color

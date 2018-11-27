@@ -1,0 +1,38 @@
+.twitter-slider
+  margin: 0 !important
+  p
+    &.twitter-header
+      +font(18px, 2px, #353738)
+      margin: 0.5rem 0
+      span
+        font-weight: 300
+    &.content
+      +font(24px, normal, #848789)
+      line-height: 34px
+      font-style: italic
+      margin: 1rem 0
+      max-width: 75%
+      text-align: center
+  .slide
+    display: grid !important
+    align-content: center
+    justify-items: center
+    padding: 4rem 8rem
+    background-color: $light-background-color
+    &:focus
+      outline: 0
+  .slick-dots
+    button::before
+      width: 11px
+      height: 11px
+      border-radius: 5px
+      background-color: #a9afb3
+      content: ''
+    background-color: $light-background-color
+    //border: 1px solid #c8c8c8
+    &:focus
+      background-color: #9fa5a9
+  .slick-dots
+    position: inherit
+    padding-bottom: 4rem
+    bottom: 0
